@@ -17,6 +17,7 @@
         <selenium.version>4.17.0</selenium.version>
         <testng.version>7.8.0</testng.version>
         <lombok.version>1.18.20</lombok.version>
+        <owner.version>1.0.12</owner.version>
     </properties>
 
     <dependencies>
@@ -41,6 +42,14 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+        </dependency>
+
+        <!-- Source: https://mvnrepository.com/artifact/org.aeonbits.owner/owner -->
+        <dependency>
+            <groupId>org.aeonbits.owner</groupId>
+            <artifactId>owner</artifactId>
+            <version>${owner.version}</version>
+            <scope>compile</scope>
         </dependency>
 
 
