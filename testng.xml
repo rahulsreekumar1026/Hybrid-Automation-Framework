@@ -4,7 +4,7 @@
     <test name="Nexus_5X_API_32" verbose="10">
 <!--        <parameter name="deviceId" value="0"/>-->
         <classes>
-            <class name="tests.WebTest"/>
+            <class name="com.automation.app.runner.Runner"/>
         </classes>
     </test>
 </suite>
