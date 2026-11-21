@@ -10,7 +10,7 @@ Feature: Login scenarios
     And user enters password as "admin123"
     When user clicks on login button
 
-  @mobile @web @regression @smoke @final
+  @mobile @web @regression @smoke @final @test
   Scenario:Verify login to app and validate user lands on home screen
     Given user enters user name as "Admin"
     And user enters password as "string"

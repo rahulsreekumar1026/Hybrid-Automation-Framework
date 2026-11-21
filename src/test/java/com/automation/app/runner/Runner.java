@@ -23,7 +23,7 @@ import java.util.List;
 public class Runner extends AbstractTestNGCucumberTests {
 
     @Override
-    @DataProvider
+    @DataProvider(parallel = false)
     public Object[][] scenarios() {
         return filterScenarios(super.scenarios());
     }
