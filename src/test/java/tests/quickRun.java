@@ -13,7 +13,12 @@ public class quickRun {
     public void test() {
         IFrameworkConfig fcfg = FrameworkConfigFactory.getConfig();
     }
+
+    @Test
     public void testLog(){
         log.info("testing logback");
+        log.info("Launching Chrome");
+        log.warn("Element not found");
+        log.error("Test failed");
     }
 }
